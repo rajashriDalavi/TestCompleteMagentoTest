@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{897C52CE-9F82-4B7F-88D9-885479522E25}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object with the right mouse button." Action="ClickR" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="230" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="29" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="47" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="14" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.Microsoft_Windows_ShellExperienceHost.Jump_List_for_Google_Chrome.Actions.Close_window.Close_window" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{E9ECBE4D-FEA1-4273-8DE0-79483D9264D4}" />
+	<Parameters Key="{74B4A8DC-B497-45DD-B153-57AB5A937DB8}" />
+</Root>
