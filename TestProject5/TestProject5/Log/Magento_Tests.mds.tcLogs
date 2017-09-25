@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42996.6880614815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ED0E1EA4-D96E-4635-87F2-5732070927D9}"/>
+				<Prp name="nameofroot" type="S" value="TestProject5"/>
+				<Prp name="relpath" type="S" value="9_18_2017_4_30 PM_48_512\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42996.6901681018"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BECB9521-A58D-42F0-8CB5-699055267DC7}"/>
+				<Prp name="nameofroot" type="S" value="TestProject5"/>
+				<Prp name="relpath" type="S" value="9_18_2017_4_33 PM_50_524\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42996.6994739583"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{35776076-EEF3-465A-9EEE-05FD85661CE6}"/>
+				<Prp name="nameofroot" type="S" value="Magento_Tests"/>
+				<Prp name="relpath" type="S" value="9_18_2017_4_47 PM_14_550\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42996.7137524306"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EED480B3-F446-4728-BF81-945F9D1A2621}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Launch_Browser]"/>
+				<Prp name="relpath" type="S" value="9_18_2017_5_07 PM_48_210\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42996.7142401389"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D2F66657-8B3D-47E9-AFD3-06BF2D2C96C1}"/>
+				<Prp name="nameofroot" type="S" value="Magento_Tests"/>
+				<Prp name="relpath" type="S" value="9_18_2017_5_08 PM_30_348\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

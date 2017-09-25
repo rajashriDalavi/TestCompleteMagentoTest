@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A1C048CF-6E73-4888-906A-A7B4BE742743}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42996.4558680556" objectName="Aliases.browser.page3419911811.header.formSearchMiniForm.searchboxSearch" objectLeft="975" objectTop="162" objectRight="1275" objectBottom="202" clickPointX="1017" clickPointY="189" imageFileName="tcvi1950856295920.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42996.4559490741" objectName="Aliases.browser.page3419911811.header.formSearchMiniForm.searchboxSearch" objectLeft="975" objectTop="162" objectRight="1275" objectBottom="202" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1951492195922.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42996.4560069444" objectName="Aliases.browser.page3419911811.header.formSearchMiniForm.buttonSearch" objectLeft="1235" objectTop="162" objectRight="1275" objectBottom="202" clickPointX="1253" clickPointY="176" imageFileName="tcvi1951989095924.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

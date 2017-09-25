@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Launch_Browser" key="{59492502-CAE3-4AA0-8177-7405FCF6F996}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Launch_Browser.tcKDTest" />
+		</child>
+		<child name="Navigate_To_Magento_Site" key="{62AEE1BD-EF6B-4E5C-9B0F-9DA58436E22C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Navigate_To_Magento_Site.tcKDTest" />
+		</child>
+		<child name="Search_For_Samsung" key="{A1C048CF-6E73-4888-906A-A7B4BE742743}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Search_For_Samsung.tcKDTest" />
+		</child>
+		<child name="Add_To_Cart" key="{B399C73D-1E4E-4CD4-8AC7-9645A6FE1451}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Add_To_Cart.tcKDTest" />
+		</child>
+		<child name="Remove_Item" key="{6CB573BE-E40F-4CB0-9A77-335463CBB226}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Remove_Item.tcKDTest" />
+		</child>
+		<child name="Close_Browser" key="{29EF3CF2-37B7-4754-B86D-416BCAE06A47}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Close_Browser.tcKDTest" />
+		</child>
+	</children>
+	<folders />
+</Root>

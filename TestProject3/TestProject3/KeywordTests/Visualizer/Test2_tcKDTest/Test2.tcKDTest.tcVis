@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{B22780BC-0D83-476D-AAD0-CC0F6CB2AFE1}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42986.5754861111" objectName="Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass" objectLeft="440" objectTop="0" objectRight="1177" objectBottom="40" clickPointX="670" clickPointY="29" imageFileName="tcvi3076648429000.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42986.5755208333" objectName="Aliases.Microsoft_Windows_ShellExperienceHost.Jump_List_for_Google_Chrome.Actions.Close_window.Close_window" objectLeft="40" objectTop="382" objectRight="244" objectBottom="414" clickPointX="87" clickPointY="396" imageFileName="tcvi3076928173080.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
-</Root>
