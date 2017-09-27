@@ -1,0 +1,22 @@
+﻿Sub ProcessCommandLine
+  For i = 1 To BuiltIn.ParamCount
+    ProcessCommandLineArgument BuiltIn.ParamStr(i)
+  Next
+End Sub
+ 
+Sub ProcessCommandLineArgument(arg)
+  Dim items
+  items = Split(arg, "=")
+  If UBound(items) <> 1 Then
+    Exit Sub
+  End If
+  
+  Select Case aqString.ToLower(aqString.Trim(items(0)))
+    Case "browser"
+      Project.Variables.BrowserName=aqString.Trim(items(1))
+      'Call KeywordTests.Launch_Browser.Run(Project.Variables.BrowserProject)
+      Log.Message "The 'BROWSER' argument is found! The value is '"_ 
+        & aqString.Trim(items(1)) & "'"
+    
+  End Select
+End Sub
