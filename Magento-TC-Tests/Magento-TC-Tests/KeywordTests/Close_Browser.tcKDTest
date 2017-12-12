@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{6C46F606-C1E9-4DE1-9D44-E257E8B62320}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.BrowserWindow" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{F968861A-7605-401D-8319-FCC91A70A7EF}" />
+	<Parameters Key="{279D68F9-F172-44BB-91D1-3DB91F0F8C8E}" />
+</Root>

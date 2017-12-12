@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{EF700814-ECC6-458E-930D-80EDD27FE813}">
+	<children>
+		<child name="Magento-TC-Tests" key="{6F974C35-1525-4D0E-A4B6-FCDFAE086FC6}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="Magento-TC-Tests\Magento-TC-Tests.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{2954C3FF-E98A-4876-AD25-A3700E8DD4CB}">
+		<children>
+			<testItem key="{6F974C35-1525-4D0E-A4B6-FCDFAE086FC6}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E249DADA-F1D8-4197-8BC4-8F76BB2E5A1A}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{D38D88A2-E56F-4946-A45B-F1D59E8F6C9F}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

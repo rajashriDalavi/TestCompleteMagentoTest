@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Prp name="stop date" type="D" value="43081.2697924884"/>
+			<Prp name="host" type="S" value="SRITESTCOMPLETE"/>
+			<Prp name="test" type="S" value="Magento-TC-Tests"/>
+			<Prp name="user" type="S" value="Chriu"/>
+			<Prp name="start date" type="D" value="43081.2693080093"/>
+			<Prp name="log status" type="I" value="2"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row1">
+				<Node name="messages">
+					<Node name="row0">
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="priority" type="I" value="300"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="time" type="D" value="43081.2697924884"/>
+						<Prp name="message" type="S" value="The project suite execution has been stopped."/>
+						<Prp name="extended message" type="S" value="The project suite execution has been stopped, because the execution of the 'Magento-TC-Tests' project failed and the value of the &quot;Stop on error&quot; test item property is True."/>
+					</Node>
+				</Node>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="name" type="S" value="Project Suite Log messages"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43081.2697924884"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43081.2697924884"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages">
+					<Node name="row1">
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="priority" type="I" value="300"/>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="time" type="D" value="43081.2697922338"/>
+						<Prp name="message" type="S" value="The execution process was interrupted."/>
+						<Prp name="extended message" type="S" value=""/>
+					</Node>
+					<Node name="row0">
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="priority" type="I" value="300"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="time" type="D" value="43081.2697873495"/>
+						<Prp name="message" type="S" value="The 'Magento-TC-Tests' project failed to run."/>
+						<Prp name="extended message" type="S" value="A new test item has been created, but no test to be run has been specified.&#xA;The project cannot be run."/>
+					</Node>
+				</Node>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="name" type="S" value="Magento-TC-Tests"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43081.2697924884"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="43081.2693080093"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>

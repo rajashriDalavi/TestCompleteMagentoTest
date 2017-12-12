@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Navigate_To_Magento" key="{7D65E0BA-7EB2-4CCE-BB38-01CF2D07D284}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Navigate_To_Magento.tcKDTest" />
+		</child>
+		<child name="Search_For_Product" key="{B3111674-FD9D-4EFD-B28E-E6B5AE08AF4A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Search_For_Product.tcKDTest" />
+		</child>
+		<child name="Add_To_Cart" key="{55EDA873-76A6-48E4-8F58-9B370B907408}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Add_To_Cart.tcKDTest" />
+		</child>
+		<child name="Remove_Item" key="{65518963-96C4-4C18-8C7B-A2552AFDD998}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Remove_Item.tcKDTest" />
+		</child>
+		<child name="Close_Browser" key="{6FC74A0F-7059-4D2D-A0E6-8A5F579AD273}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Close_Browser.tcKDTest" />
+		</child>
+	</children>
+	<folders />
+</Root>
