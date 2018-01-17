@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{C377F702-CB24-4995-9F9C-26B6A51E2CEC}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="parametrized">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="about:blank" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<BrowserParameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Browser" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqEnvironment.GetEnvironmentVariable(&quot;BROWSER&quot;)" />
+						<Parameter Name="Version" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Platform" DefVarType="12" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="pX86" />
+								<Value Type="1" Value="1" Text="pX64" />
+								<Value Type="1" Value="-1" Text="pAny" />
+							</Values>
+						</Parameter>
+					</BrowserParameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{A28B1B20-6FFB-4EC6-8526-0079A6BC5946}" />
+	<Parameters Key="{1B232C2B-2949-49F9-980F-6CCD19EFB733}" />
+</Root>

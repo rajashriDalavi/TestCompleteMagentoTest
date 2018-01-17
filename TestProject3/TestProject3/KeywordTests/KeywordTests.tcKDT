@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Test9" key="{8F7A66C6-06E8-4929-8892-D535AE90EC09}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test9.tcKDTest" />
+		</child>
+		<child name="Test10" key="{61DA8194-EC51-409C-92C6-17D89FEECA42}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test10.tcKDTest" />
+		</child>
+		<child name="Test11" key="{BF0B1CA3-AD95-4DCA-8BAA-E5914338ED39}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test11.tcKDTest" />
+		</child>
+		<child name="Launch_Browser" key="{40BF5884-D0C4-4FFB-960F-7B1592434C13}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Launch_Browser.tcKDTest" />
+		</child>
+		<child name="Navigate_To_Magento_Home_Page" key="{94AB1E93-4C15-4C61-88C3-4B6692B734DD}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Navigate_To_Magento_Home_Page.tcKDTest" />
+		</child>
+		<child name="Search_Product_Samsung" key="{EDA39AD4-EBD6-4781-A34A-62EF8CC07886}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Search_Product_Samsung.tcKDTest" />
+		</child>
+		<child name="Add_item_To_Cart" key="{2D840268-E45D-4B81-BE2D-7B167AF9B55B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Add_item_To_Cart.tcKDTest" />
+		</child>
+		<child name="Remove_Item_From_Cart" key="{9BFBA8BD-C2EA-4B9A-945D-81FB288321EE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Remove_Item_From_Cart.tcKDTest" />
+		</child>
+		<child name="Close_Browser" key="{F8629A29-1913-43AD-8A16-13FD1B42CE89}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Close_Browser.tcKDTest" />
+		</child>
+	</children>
+	<folders />
+</Root>

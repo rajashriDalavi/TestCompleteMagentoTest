@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D6A25411-6ECF-434E-9FB8-8271A3F00FF4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42998.3809143519" objectName="Aliases.browser.pageGoogle.formTsf.textboxLstIb" objectLeft="414" objectTop="401" objectRight="975" objectBottom="435" clickPointX="467" clickPointY="420" imageFileName="tcvi1030604687400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42998.3809259259" objectName="Aliases.browser.pageGoogle.formTsf.textboxLstIb" objectLeft="414" objectTop="401" objectRight="975" objectBottom="435" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1030745387402.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42998.3810300926" objectName="Aliases.browser.pageGoogle.formTsf.panelSbtc.panelGstl0SbddA.panel.panelSbddB.panelSbsbA.panelSbse0.textnodeARamanujan" objectLeft="468" objectTop="441" objectRight="562" objectBottom="459" clickPointX="526" clickPointY="444" imageFileName="tcvi1031646887407.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

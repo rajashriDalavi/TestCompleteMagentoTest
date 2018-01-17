@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{14574597-9217-43AB-8FE1-3BF76F31F74B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="parametrized">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="javascript:void(0)" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<BrowserParameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Browser" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="BrowserProject" />
+						<Parameter Name="Version" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Platform" DefVarType="12" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="1">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="pX86" />
+								<Value Type="1" Value="1" Text="pX64" />
+								<Value Type="1" Value="-1" Text="pAny" />
+							</Values>
+						</Parameter>
+					</BrowserParameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageMsnIndiaHotmailOutlookSkypeN" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Navigates to the &apos;%p1&apos; address." Action="ToUrl" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="http://a.rfihub.com/sed?w=300&amp;h=600&amp;co=sej%3Afalse%2Curl%3Apnc-76.pnc-rtb1.rfihub.net%2Cuuid%3A1038150098410179815%2CuD%3A0%2CexId%3A7229509564421898379%2CisFp%3A1%2Cbt%3A1505901050043%2CnewUser%3Afalse%2Cmt%3A1%2CuR%3A8067%2CbB%3Atrue%2Cip%3A202.149.218.202%2CuG%3A0%2CuE%3A0%2CuV%3A637380%2CserverId%3Apnc-76%2Coptimize%3Afalse%2Cdid%3Atid_966543%7Cmed_regular%7CeCv_1435%2CscoreMicroConversions%3A2%2CscoreMicroClicks%3A0&amp;ep=0.06464&amp;ri=ca0c008e234617bfbde74d93a764598d&amp;rs=http%253A%252F%252Fwww.msn.com%252Fen-in%252F%253Focid%253Diehp&amp;ai=3133143&amp;rt=966543&amp;re=44181&amp;ug=&amp;pv=0&amp;ra=9010506180.8196692697342388&amp;rb=345&amp;ca=&amp;rc=27.0&amp;rd=&amp;ua=&amp;ub=&amp;uc=&amp;ud=&amp;ue=&amp;pa=ppre9010506082846&amp;pb=&amp;pc=&amp;pd=&amp;pg=&amp;ct=1505901050618&amp;di=&amp;app=0&amp;pe=http%3A%2F%2Fwww.msn.com%2Fen-in%2F%3Focid%3Diehp&amp;pf=&amp;sig=2080374493,805306751&amp;dtv=1" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageMsnIndiaHotmailOutlookSkypeN" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Moves the mouse pointer over the &apos;%n&apos; control." Action="HoverMouse" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="21" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageMsnIndiaHotmailOutlookSkypeN.headerHeaderCommon.sectionHeaderSearch.formSrchfrm.buttonBingsearch" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Navigates to the &apos;%p1&apos; address." Action="ToUrl" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="http://google.com/" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Moves the mouse pointer over the &apos;%n&apos; control." Action="HoverMouse" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="749" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="76" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle.panelLga.panel" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="![ReleaseLast]" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle.formTsf.textboxLstIb" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="cybage software" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle.formTsf.textboxLstIb" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="[Enter]" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle.formTsf.textboxLstIb" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageGoogle.panelRes.linkOverview" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Waits until the browser loads the page and is ready to accept user input." Action="Wait" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.browser.pageAboutUsOverviewCybage" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{ECAA4B23-4A78-4D2C-9FAC-59CC6CD0E495}">
+		<Items>
+			<Variable Name="BrowserVar" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{5BBEAC95-8CCA-4AD7-BEB8-E67895B384D8}" />
+</Root>

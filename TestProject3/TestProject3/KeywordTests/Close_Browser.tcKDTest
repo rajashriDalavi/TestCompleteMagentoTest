@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{60447FBD-1F5C-43E3-95A0-362F1F7D8858}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the &apos;%n&apos; window." Action="Close" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Aliases.chrome.wndChrome_WidgetWin_1" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{E7087F6F-850A-43A4-84B6-EE4BFD48FE11}" />
+	<Parameters Key="{55E1E7C4-10AF-4EBF-8490-D7255E90A7F9}" />
+</Root>
